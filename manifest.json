@@ -1,0 +1,29 @@
+{
+    "widget":{
+            "name": "DesignAMO.v.2",
+            "description": "Изменение дизайна v.2",
+            "short_description": "Изменение дизайна v.2",
+            "code": "design2",
+            "secret_key": "bbb789c8b841eb3b62c51895720d4ac3a60f9fcd36a7be56a03dfe2539681d65",
+            "version": "1.0.33",
+            "interface_version": 2,
+            "init_once": false,
+            "locale":[
+                    "ru"
+                    ],
+            "installation": true
+            },
+    "locations":[
+            "lcard-1",
+			"сcard-1",	
+            "settings"
+            ],
+    "settings":{   
+		"phoneformat":{
+			"name": "settings.phoneformat",
+			"type": "text", 
+			"required": true
+        }
+    }
+
+}
